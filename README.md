@@ -5,7 +5,7 @@ This is a spring mvc(version # 4.1.1) project
 ## System Requirements
 1. Java 1.7.x
 2. Maven 3.x
-2. Tomcat/Jboss/Jetty/Weblogic(Optional)
+3. Tomcat/Jboss/Jetty/Weblogic(Optional)
 
 ## Build and bring up the app in Jetty server
 * Run mvn jetty:run from shell
@@ -13,6 +13,6 @@ This is a spring mvc(version # 4.1.1) project
 * After use stop the server by pressing Ctrl+C from the shell
 
 ## Build the app in your favourite app server
-1. mvn clean install
-3. Deploy the war from/target/ to the application server of your choice.
+*. mvn clean install
+*. Deploy the war from/target/ to the application server of your choice.
 
